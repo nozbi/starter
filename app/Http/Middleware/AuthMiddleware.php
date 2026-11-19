@@ -2,6 +2,7 @@
 
 namespace App\Http\Middleware;
 
+use App\App;
 use Closure;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
@@ -14,7 +15,7 @@ class AuthMiddleware
         {
             return $next($request);
         }
-        if ($request->is('home', 'login', 'register', 'two-factor', 'two-factor.login', 'password', 'password.request', 'password.reset')) 
+        if ($request->is(...App::getGuestRoutes())) 
         {
             return $next($request);
         }

@@ -10,6 +10,11 @@ use Override;
 
 class App extends BaseApp
 {
+    public static function getGuestRoutes(): array
+    {
+        return ['home', 'login', 'register', 'two-factor', 'two-factor.login', 'password', 'password.request', 'password.reset'];
+    }
+
     private function isAuthenticated(): bool
     {
         return auth()->check();

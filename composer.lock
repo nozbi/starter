@@ -3021,16 +3021,16 @@
         },
         {
             "name": "nozbi/uikit",
-            "version": "v1.2.2",
+            "version": "v1.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nozbi/uikit.git",
-                "reference": "f592296954a023780cedc0728bd1321f992d3a62"
+                "reference": "98dbed9675e16b4b04c73a10f73f8064f08309e4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nozbi/uikit/zipball/f592296954a023780cedc0728bd1321f992d3a62",
-                "reference": "f592296954a023780cedc0728bd1321f992d3a62",
+                "url": "https://api.github.com/repos/nozbi/uikit/zipball/98dbed9675e16b4b04c73a10f73f8064f08309e4",
+                "reference": "98dbed9675e16b4b04c73a10f73f8064f08309e4",
                 "shasum": ""
             },
             "require": {
@@ -3063,9 +3063,9 @@
             "description": "UI kit",
             "support": {
                 "issues": "https://github.com/nozbi/uikit/issues",
-                "source": "https://github.com/nozbi/uikit/tree/v1.2.2"
+                "source": "https://github.com/nozbi/uikit/tree/v1.2.3"
             },
-            "time": "2026-11-14T18:01:59+00:00"
+            "time": "2026-11-18T15:00:06+00:00"
         },
         {
             "name": "nunomaduro/termwind",
